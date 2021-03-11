@@ -5,7 +5,7 @@
 
 ![alt text](https://i.ibb.co/g953Mj7/2.png)
 
-## Você pode também pode converter do dólar para o real!
+## Você também pode converter do dólar para o real!
 ### Se você quiser converter do dólar para o real, basta inserir um valor no campo dólar (destacada com a bandeira americana) e em seguida clicar em converter, o resutlado será exibido automaticamente na parte inferior da aplicação, como explicado acima.
 
 ![alt text](https://i.ibb.co/YcW7qyG/3.png)
