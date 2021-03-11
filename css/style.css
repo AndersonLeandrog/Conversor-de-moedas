@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* { 
+    /*fonte*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: white;
+
+    /*alinhamento*/
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*estilo*/
+    background: orange;
+
+    /*alinhamento*/
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    /*dimensões*/
+    width: 75%;
+    height: 25px;
+
+    /*fonte*/
+    font-style: italic;
+    font-weight: bold;
+    color: #808080;
+
+    /*alinhamento*/
+    margin-left: 5px;
+}
+
+.carta {
+    /*dimensões*/
+    width: 250px;
+    height: 250px;
+
+    /*estilo*/
+    border-radius: 3px;
+    margin-top: 250px;
+    background: #3d3d3d;
+}
+
+    .carta .caixa {
+        /*dimensões*/
+        width: 95%;
+        height: 35px;
+
+        /*estilo
+        background: red;*/
+
+        /*alinhamento*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .carta .fundobotao {
+        /*dimensões*/
+        width: 100%;
+        height: 65px;
+        
+        /*estilo
+        background: lightblue;*/
+
+        /*alinhamento*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 3.5px;
+    }
+
+        .carta .fundobotao button {
+            /*dimensões*/
+            width: 80px;
+            height: 35px;
+
+            /*fonte*/
+            font-weight: bolder;
+
+            /*estilo*/
+            cursor: pointer;
+            border: none;
+            border-radius: 3px;
+            outline: none;
+            background: #32CD32;
+
+            /*alinhamento*/
+            margin-left: 38px;
+        }
+
+
+    .carta .resultado {
+        /*dimensões*/
+        width: 100%;
+        height: 91px;
+
+        /*fonte*/
+        font-weight: bold;
+        font-size: 1.7em;
+
+        /*estilo*/
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        background:#32CD32;
+
+        /*alinhamento*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .carta .ajuda {
+        /*dimensões*/
+        width: 350px;
+        height: 45px;
+
+        /*estilo
+        background: red;*/
+
+        /*alinhamento*/
+        position: absolute;
+        bottom: 12px;
+        right: 12px;
+    }
+
+        .carta .ajuda .balao {
+            /*dimensões*/
+            width: 300px;
+            height: 45px;
+            
+            /*fonte*/
+            font-size: 0.8em;
+            font-style: italic;
+
+            /*estilo*/
+            display: none;
+            border-radius: 5px;
+            background: #3d3d3d;
+
+            /*alinhamento*/
+            float: left;
+        }
+
+        .carta .ajuda button {
+            /*dimensões*/
+            width: 45px;
+            height: 45px;
+            
+            /*fonte*/
+            font-size: 1.14em;
+            font-weight: bold;
+
+            /*estilo*/
+            cursor: pointer;
+            border: none;
+            outline: none;
+            border-radius: 50%;
+            background: #3d3d3d;
+
+            /*alinhamento*/
+            float: right;
+            margin-left: 4px;
+        }
+
+        .carta .fundobotao #limpar {
+            /*dimensões*/
+            width: 15px;
+            height: 15px;
+
+            /*alinhamento*/
+            margin-right: 5px;
+        }
