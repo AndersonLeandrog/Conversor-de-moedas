@@ -1,2 +1,4 @@
-# Conversor-de-moedas
-Conversor de moedas desenvolvido utilizando HTML5, CSS3 e Javascript, converte do real para o dólar e do dólar para o real, modelo simples de conversor de moedas.
+# CONVERTA MOEDAS DO REAL PARA O DÓLAR OU DO DÓLAR PARA O REAL
+![alt text](https://i.ibb.co/g953Mj7/2.png)
+![alt text](https://i.ibb.co/YcW7qyG/3.png)
+
