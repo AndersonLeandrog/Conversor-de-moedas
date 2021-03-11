@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--ref. ao arquivo css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--ref. ao arquivo js-->
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <title>Conversor de moedas - BRL/USD</title>
+</head>
+
+<body>
+
+    <div class="carta"> <!--onde se encontra todos os elementos da aplicação-->
+
+        <div class="caixa"> <!--imagens e inputs-->
+            <img src="https://i.ibb.co/yhjCCN6/brl.png" width="35px" height="28px"/>
+            <input type="text" class="brl" value="00.00">
+        </div>
+
+        <div class="caixa"> <!--imagens e inputs-->
+            <img src="https://i.ibb.co/pPn7KdQ/us.png"  width="35px" height="28px"/>
+            <input type="text" class="us" value="00.00">
+        </div>
+
+        <div class="fundobotao"> <!--checkbox e botão de conversão de moedas-->
+            <input type="checkbox" id="limpar">
+            <label for="limpar">limpar dados</label>
+            <button onclick="converter()">converter</button>
+        </div>
+
+        <div class="resultado"> <!--campo de resultados-->
+            <img src="https://i.ibb.co/Nx5yWdX/money.png" width="50px" height="50px"/>
+        </div>
+
+        <div class="ajuda"> <!--botão de ajuda da página (exibe um balão informativo ao ser selecionado)-->
+            <div class="balao">Para converter do real para o dólar, insira o valor que deverá ser convertido no campo BR. Para a conversão do dólar para o real, insira o valor no campo US.</div>
+            <button>?</button>
+        </div>
+
+    </div>
+</body>
+</html>
