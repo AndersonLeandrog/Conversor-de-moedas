@@ -90,12 +90,17 @@ input {
             cursor: pointer;
             border: none;
             border-radius: 3px;
+            border-bottom: 3.5px solid #00FF00;
             outline: none;
             background: #32CD32;
 
             /*alinhamento*/
             margin-left: 38px;
         }
+
+            .carta .fundobotao button:hover {
+                border-bottom: 0px;
+            }
 
 
     .carta .resultado {
@@ -120,7 +125,7 @@ input {
 
     .carta .ajuda {
         /*dimensões*/
-        width: 350px;
+        width: 360px;
         height: 45px;
 
         /*estilo
@@ -135,20 +140,37 @@ input {
         .carta .ajuda .balao {
             /*dimensões*/
             width: 300px;
-            height: 45px;
+            height: auto;
             
             /*fonte*/
             font-size: 0.8em;
             font-style: italic;
+            padding: 1.5px 0px 1.5px 3px;
 
             /*estilo*/
-            display: none;
-            border-radius: 5px;
-            background: #3d3d3d;
+            background:#3d3d3d;
 
             /*alinhamento*/
+            position: relative;
             float: left;
         }
+
+            .carta .ajuda .balao:after {
+                /*dimensões*/
+                width: 0px;
+                height: 0px;
+
+                /*estilo*/
+                content: "";
+                border-top: 10px solid transparent;
+                border-left: 10px solid #3d3d3d;
+                border-bottom: 10px solid transparent;
+
+                /*alinhamento*/
+                position: absolute;
+                top: 12px;
+                left: 100%;
+            }
 
         .carta .ajuda button {
             /*dimensões*/
@@ -170,6 +192,17 @@ input {
             float: right;
             margin-left: 4px;
         }
+
+            .carta .ajuda button:hover {
+                animation-name: animbt;
+                animation-duration: 0.5s;
+            }
+
+            @keyframes animbt {
+                0% {transform: rotate(-15deg);}
+                50% {transform: rotate(20deg);}
+                100% {transform: rotate(0deg);}
+            }
 
         .carta .fundobotao #limpar {
             /*dimensões*/
